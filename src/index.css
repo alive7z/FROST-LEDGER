@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: Arial, Helvetica, sans-serif;
+}
+
+/* High-Tech Custom Scrollbar matching Clinical Teal & Light Slate */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #0D9488 #F1F5F9;
+  
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0D9488;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2563EB;
+}
+
+/* Base Styles */
+body {
+  background-color: #F8FAFC;
+  color: #0F172A;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Selection highlight */
+::selection {
+  background-color: #2563EB;
+  color: #ffffff;
+}
