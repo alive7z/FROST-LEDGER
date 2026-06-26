@@ -21,16 +21,7 @@ This application monitors refrigerator and ambient conditions, predicts temperat
 
 - Node.js 18 or later
 - npm
-- Python 3.8 or later (optional)
-
-### Installation
-
-```bash
-cd "/Users/sumitsinghbagdwal/Downloads/FROST LEDGER"
-npm install
-```
-
-Create a `.env` file in the project root with the environment variables required by the application.
+- Python 3.8 or later
 
 ### Running in Development
 
